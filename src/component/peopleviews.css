@@ -1,7 +1,38 @@
 .view{
     height:400px;
-    /* width:100%; */
-    background-color: blue;
+    width:100%;
+    background-color:black;
+    color: white;
+    border-top: 5px solid white;
+    display: flex;
+    flex-direction: column;
+
     /* position: absolute; */
     /* top: 514px; */
 }
+.view .heading{
+    width: 100%;
+    text-align: center;
+}
+.view .poster{
+    display: flex;
+    width: 70%;
+    margin:0 auto;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    gap:10px;
+}
+.view .poster .acheivers{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-around;
+    align-items:center;
+    width: 400px;
+    height:150px;
+    background-color: white;
+}
+
