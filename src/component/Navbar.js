@@ -1,5 +1,5 @@
 import React from 'react'
-// import {FontAwesomeIcon} from '@fortawesome/fontawesome-free';
+import galaxy from './galaxy.png'
 import './navbar.css';
 
 
@@ -9,12 +9,10 @@ export default function Navbar() {
     <>
     <div className='navbar'>
       <div className='logo'>
-        {/* <img src={myImage} alt="logo"/> */}
-        {/* <i class="fa-light fa-rocket"></i> */}
-        <p>Galaxy</p>
+        <img src={galaxy} alt='logo'/>
       </div>
       
-<div className='links'>
+        <div className='links'>
   <ul>
     <li>About</li>
     <li>Projects</li>

@@ -12,6 +12,7 @@ export default function LandingPage() {
             <img src={moon} alt='moon'/>
         
         </div>
+        <div className='mid'></div>
         <div className='landingpage_right'>
             <SignUp/>
         </div>
