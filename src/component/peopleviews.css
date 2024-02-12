@@ -1,5 +1,5 @@
 .view{
-    height:400px;
+    height:300px;
     width:100%;
     background-color:black;
     color: white;
@@ -33,6 +33,15 @@
     align-items:center;
     width: 400px;
     height:150px;
+    background: url(poster.png);
+    background-size: 125px 150px;
+    /* background-color: white; */
+}
+
+.view .poster .acheivers p{
     background-color: white;
+}
+.view .poster .acheivers svg{
+    fill: white;
 }
 

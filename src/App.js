@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './component/Navbar';
 import LandingPage from './component/LandingPage';
 import PeopleViews from './component/PeopleViews';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <LandingPage/>
     <PeopleViews/>
+    <Footer/>
     </main>
     
     </>
